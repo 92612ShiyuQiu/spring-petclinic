@@ -1,9 +1,0 @@
----
-- hosts: webservers 
-  become: True
-  tasks:
-    - name: Deploy petclinic
-      copy:
-        src: target/*.jar
-        dest: 
-...
